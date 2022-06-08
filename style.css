@@ -1,0 +1,91 @@
+h1 {
+    text-align:center;
+    background: #f1e105d8;
+    margin: 0;
+}
+
+.tamanho-imagem {
+    width:500px;
+    height: 300px;
+}
+
+nav{
+    background: #2bb81e57;
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.texto {
+    font-size: 30px;
+    color:rgb(126, 70, 18);
+}
+
+.principal {
+    background: rgb(107, 172, 33);
+    color:rgb(255, 255, 255);
+    text-align:center;
+    padding: 20px 100px;
+}
+
+em {
+    color: rgb(255, 255, 4);
+}
+
+.fundo-container-dois{
+    background: #2bb81e57;
+}
+
+.container-dois {
+    width: 1050px;
+    margin: 0 auto;
+    background: #2bb81e57;
+}
+
+.container-dois li{
+    display:inline-block;
+    width: 310px;
+    text-align: center;
+    vertical-align: top;
+    margin: 25px 10px;
+    padding: 10px;
+    border: 2px dotted blue;
+    box-sizing: border-box;
+}
+
+.tamanho-padrao-imagem-animais{
+    width:250px;
+    height: 200px;
+}
+
+h2{
+    color: rgb(14, 14, 73);
+    text-decoration: overline;
+}
+
+p{
+    font-size: 16px;
+    text-align: center;
+    color: rgb(25, 35, 50);
+    font-weight: bold;
+}
+
+footer{
+    background: url(folhagem.jpg);
+    text-align: center;
+    padding: 20px;
+}
+
+.tamanho-imagem-rodape-tucano{
+    width:100px;
+    height: 80px;
+}
+
+.copyrigth{
+    color: yellow;
+}
