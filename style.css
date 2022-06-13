@@ -2,6 +2,19 @@ h1 {
     text-align:center;
     background: #f1e105d8;
     margin: 0;
+    padding: 15px;
+    color: blue;
+}
+
+.titulo-texto{
+    text-decoration: none;
+    font-size:40px;
+    transition: 1s color;
+    cursor:pointer;
+}
+
+.titulo-texto:hover{
+    color:blue;
 }
 
 .tamanho-imagem {
@@ -24,6 +37,16 @@ nav{
 .texto {
     font-size: 30px;
     color:rgb(126, 70, 18);
+    transition: 1s color;
+    cursor:pointer;
+}
+
+.texto:hover {
+    color: rgb(234, 12, 12);
+}
+
+.texto:active{
+    color:blue
 }
 
 .principal {
@@ -92,7 +115,7 @@ footer{
 
 /* contato */
 
-main {
+.main {
     width: 940px;
     margin: 40px auto;
 }
@@ -121,6 +144,16 @@ form label, form legend{
 .enviar-formulario{
     width: 200px;
     height: 50px;
-    background-color:rgb(8, 80, 50);
+    font-size: 18px;
+    background-color:green;
     color:azure;
+    transition: 1s background;
+    border-color:black;
+    border: dashed;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.enviar-formulario:hover{
+    background:darkgreen;
 }
