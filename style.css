@@ -1,9 +1,8 @@
 h1 {
     text-align:center;
-    background: #f1e105d8;
+    background: #2c607083;
     margin: 0;
     padding: 15px;
-    color: blue;
 }
 
 .titulo-texto{
@@ -23,7 +22,7 @@ h1 {
 }
 
 nav{
-    background: #2bb81e57;
+    background: #000000;
 }
 
 .container {
@@ -36,7 +35,7 @@ nav{
 
 .texto {
     font-size: 30px;
-    color:rgb(126, 70, 18);
+    color:rgba(223, 184, 57, 0.87);
     transition: 1s color;
     cursor:pointer;
 }
@@ -50,14 +49,18 @@ nav{
 }
 
 .principal {
-    background: rgb(107, 172, 33);
+    background:rgba(139, 117, 44, 0.555);
     color:rgb(255, 255, 255);
     text-align:center;
-    padding: 20px 100px;
+    padding: 20px 150px;
+}
+
+.principal-texto{
+    padding: 0 80px;
 }
 
 em {
-    color: rgb(255, 255, 4);
+    color: #214550;
 }
 
 .fundo-container-dois{
