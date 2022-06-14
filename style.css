@@ -64,13 +64,16 @@ em {
 }
 
 .fundo-container-dois{
-    background: #2bb81e57;
+    background: rgba(105, 89, 34, 0.87);
 }
 
 .container-dois {
     width: 1050px;
     margin: 0 auto;
-    background: #2bb81e57;
+}
+
+.container-dois-cor{
+    background: rgba(192, 159, 49, 0.87);
 }
 
 .container-dois li{
@@ -80,7 +83,7 @@ em {
     vertical-align: top;
     margin: 25px 10px;
     padding: 10px;
-    border: 2px dotted blue;
+    border: 3px dotted white;
     box-sizing: border-box;
 }
 
