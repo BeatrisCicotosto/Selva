@@ -7,8 +7,8 @@
     </head>
     <body>
         <header>
+            <h1><a href="index.html" class="titulo-texto">ANIMAIS</a></h1>
             <nav>
-                <h1><a href="index.html" class="titulo-texto">ANIMAIS</a></h1>
                 <div class="container">
                         <a href="zoosp.html" class="texto">Visitar Zoológico de SP</a>
                         <a href="https://www.curitiba.pr.gov.br/noticias/zoo-de-curitiba-amplia-horarios-e-ingressos-para-visitas-a-pe/61223" class="texto"> Visitar Zoológico de Curitiba</a>
@@ -19,46 +19,47 @@
                 </div>
             </nav>
         </header>
-        <main class="main">
-            <form>
-                <legend><strong> Para agendar uma visita ao zoológico de São Paulo, por favor preencha os campos abaixo!</strong></legend>
+        <main> 
+            <div class="fundo-main">
+                <form>
+                    <legend><strong> Para agendar uma visita ao zoológico de São Paulo, por favor preencha os campos abaixo!</strong></legend>
 
-                <label for="nomeSobrenome">Nome e Sobrenome</label>
-                <input type="text" id="nomeSobrenome" class="input-principal" required>
+                    <label for="nomeSobrenome">Nome e Sobrenome</label>
+                    <input type="text" id="nomeSobrenome" class="input-principal" required>
 
-                <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" class="input-principal" required placeholder="(xx) xxxxx-xxxx">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" class="input-principal" required placeholder="(xx) xxxxx-xxxx">
 
-                <label for="e-mail">E-mail</label>
-                <input type="email" id="e-mail" class="input-principal" required placeholder="seuemail@domínio.com">
+                    <label for="e-mail">E-mail</label>
+                    <input type="email" id="e-mail" class="input-principal" required placeholder="seuemail@domínio.com">
 
-                <label for="mensagem">Mensagem</label>
-                <textarea type="text" cols="30" rows="5" id="mensagem" class="input-principal" required></textarea>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea type="text" cols="30" rows="5" id="mensagem" class="input-principal" required></textarea>
 
-                <fieldset class="idade">
-                    <legend>Qual sua faixa etária?</legend>             
+                    <fieldset class="idade">
+                        <legend>Qual sua faixa etária?</legend>             
 
-                    <label for="radio-jovem"><input type="radio" id="radio-jovem" value="jovem" name="conteudo" requerid checked> Até 19 anos</label>
+                        <label for="radio-jovem"><input type="radio" id="radio-jovem" value="jovem" name="conteudo" requerid checked> Até 19 anos</label>
 
-                    <label for="radio-adulto"><input type="radio" id="radio-adulto" value="adulto" name="conteudo" requerid> De 20 até 59 anos</label>
+                        <label for="radio-adulto"><input type="radio" id="radio-adulto" value="adulto" name="conteudo" requerid> De 20 até 59 anos</label>
 
-                    <label for="radio-idoso"><input type="radio" id="radio-idoso" value="idoso" name="conteudo" required> 60 anos em diante</label>  
-                </fieldset>
+                        <label for="radio-idoso"><input type="radio" id="radio-idoso" value="idoso" name="conteudo" required> 60 anos em diante</label>  
+                    </fieldset>
 
-                <div>
-                    <legend>Qual período deseja realizar a visita?</legend>
-                    <select>
-                        <option>Manhã</option>
-                        <option>Tarde</option>
-                        <option>Noite</option>
-                    </select>
-                </div>
+                    <div>
+                        <legend>Qual período deseja realizar a visita?</legend>
+                        <select>
+                            <option>Manhã</option>
+                            <option>Tarde</option>
+                            <option>Noite</option>
+                        </select>
+                    </div>
 
-                <label> <input type="checkbox" class="checkbox" required checked> Gostaria de receber nossas novidades por E-mail?</label>
+                    <label> <input type="checkbox" class="checkbox" required checked> Gostaria de receber nossas novidades por E-mail?</label>
 
-                <input type="submit" value="Enviar formulário" class="enviar-formulario">
-
-            </form>
+                    <input type="submit" value="Enviar formulário" class="enviar-formulario">
+                </form>
+            </div>
         </main>
         <footer>
             <img src="imagem-logo-tucano.jpg" alt="imagem do logo do rodapé: o Tucano" class="tamanho-imagem-rodape-tucano">

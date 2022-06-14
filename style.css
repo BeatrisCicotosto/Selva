@@ -30,7 +30,7 @@ nav{
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    padding: 10px 0;
+    padding: 20px;
 }
 
 .texto {
@@ -121,9 +121,14 @@ footer{
 
 /* contato */
 
-.main {
+main{
+    background: #2c607083;
+}
+
+.fundo-main {
     width: 940px;
-    margin: 40px auto;
+    margin: 0px auto;
+    padding: 40px;
 }
 
 form label, form legend{
@@ -151,7 +156,7 @@ form label, form legend{
     width: 200px;
     height: 50px;
     font-size: 18px;
-    background-color:green;
+    background-color:black;
     color:azure;
     transition: 1s background;
     border-color:black;
@@ -161,5 +166,5 @@ form label, form legend{
 }
 
 .enviar-formulario:hover{
-    background:darkgreen;
+    background:rgb(68, 66, 66);
 }
